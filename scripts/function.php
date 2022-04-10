@@ -10,6 +10,16 @@
         exit;
     }
     /*
+        function Loged caso esteja logado
+    */
+    function Loged($string){
+        if($string != NULL){
+            return true;
+        }else {
+            return false;
+        }
+    }
+    /*
         function Erro caso seja inválido
     */
     function Invalid($Error){
@@ -31,3 +41,13 @@
 
         exit();
     }
+    function Age($data){
+        $data;
+list($ano, $mes, $dia) = explode('-', $data);
+$hoje = mktime(0, 0, 0, date('m'), date('d'), date('Y'));
+$nascimento = mktime( 0, 0, 0, $mes, $dia, $ano);
+$idade = floor((((($hoje - $nascimento) / 60) / 60) / 24) / 365.25);
+echo $idade;
+    }
+    
+    

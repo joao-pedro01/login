@@ -13,7 +13,7 @@
     $DateNasc = $_POST["datanasc"];
 
     $Date = date('Y-m-d');
-    $Hour = date('h:i:s');
+    $Hour = date('H:i:s');
 
     // Processando dados do formulário quando o formulário é enviado
     if($_SERVER["REQUEST_METHOD"] == "POST"){
@@ -87,6 +87,7 @@
                 'username' => $UserName,
                 'email' => $Email,
                 'password' => $Password,
+                'date_nasc' => $DateNasc,
                 'date' => $Date,
                 'hour' => $Hour,
                 ]);

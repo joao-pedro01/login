@@ -28,32 +28,32 @@
 										</p>
 									</div>
 								</div>
-								<form action="#" class="signin-form">
+								<form action="../scripts/login.php" method="post" class="signin-form">
 									<div class="form-group mt-3">
-										<input type="text" class="form-control" required>
+										<input type="text" class="form-control" name="username" required>
 										<label class="form-control-placeholder" for="username">Username</label>
 									</div>
 									<div class="form-group">
-										<input id="password-field" type="password" class="form-control" required>
-										<label class="form-control-placeholder" for="password">Password</label>
+										<input id="password-field" type="password" class="form-control" name="password" required>
+										<label class="form-control-placeholder" for="password">Senha</label>
 										<span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
 									</div>
-									<div class="form-group">
-										<button type="submit" class="form-control btn btn-primary rounded submit px-3">Sign In</button>
+ 									<div class="form-group">
+										<button type="submit" class="form-control btn btn-primary rounded submit px-3">Entrar</button>
 									</div>
 									<div class="form-group d-md-flex">
 										<div class="w-50 text-left">
-											<label class="checkbox-wrap checkbox-primary mb-0">Remember Me
+											<label class="checkbox-wrap checkbox-primary mb-0">Lembre-me
 												<input type="checkbox" checked>
 												<span class="checkmark"></span>
 											</label>
 										</div>
 										<div class="w-50 text-md-right">
-											<a href="#">Forgot Password</a>
+											<a href="#">Esqueceu a senha?</a>
 										</div>
 									</div>
 								</form>
-								<p class="text-center">Not a member? <a data-toggle="tab" href="#signup">Sign Up</a></p>
+								<p class="text-center">Não está cadastrado? <a data-toggle="tab" href="#signup">Registre-se</a></p>
 							</div>
 
 					</div>
