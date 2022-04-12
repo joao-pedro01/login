@@ -23,8 +23,8 @@
 									</div>
 									<div class="w-100">
 										<p class="social-media d-flex justify-content-end">
-											<a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
-											<a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a>
+											<a href="https://linkedin.com/in/joao-pedro01" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-linkedin"></span></a>
+											<a href="https://github.com/joao-pedro01" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-github"></span></a>
 										</p>
 									</div>
 								</div>
@@ -53,7 +53,7 @@
 										</div>
 									</div>
 								</form>
-								<p class="text-center">Não está cadastrado? <a data-toggle="tab" href="#signup">Registre-se</a></p>
+								<p class="text-center">Não está cadastrado? <a href="../index.php">Registre-se</a></p>
 							</div>
 
 					</div>

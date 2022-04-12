@@ -7,7 +7,7 @@
         $_SESSION['UserNome'],
         $_SESSION['UserName'],
         $_SESSION['UserEmail'],
-        $_SESSION['DateNasc'],
+        $_SESSION['DateNasc']
     );   
     $_SESSION['logindeslogado'] = "Deslogado com sucesso";
     //redirecionar o usuario para a página de login

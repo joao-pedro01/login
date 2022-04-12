@@ -32,8 +32,6 @@
         if(empty(trim($UserName))){
             $Error = "O nome de usuário não pode estar vazio!!!";
             Invalid($Error);
-
-        
         // Validação de erro caso algum caractere invalido seja inputado no $UserName
         }else if(!preg_match('/^[a-zA-Z0-9_]+$/', trim($UserName))){
             $Error = "O nome de usuário pode conter apenas letras, números e _.";

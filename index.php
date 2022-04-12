@@ -1,12 +1,13 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  	<title>Resgistro</title>
-    <meta charset="utf-8">
+	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="imagex/png" href="/images/bg-1.jpg">
 	<link rel="stylesheet" href="styles/style.css">
+	<title>Resgistro</title>
 </head>
 <body>
 	<section class="ftco-section">
@@ -23,8 +24,8 @@
 									</div>
 									<div class="w-100">
 										<p class="social-media d-flex justify-content-end">
-											<a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-facebook"></span></a>
-											<a href="#" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-twitter"></span></a>
+											<a href="https://linkedin.com/in/joao-pedro01" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-linkedin"></span></a>
+											<a href="https://github.com/joao-pedro01" class="social-icon d-flex align-items-center justify-content-center"><span class="fa fa-github"></span></a>
 										</p>
 									</div>
 								</div>
